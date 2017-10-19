@@ -1,0 +1,44 @@
+a:hover {
+    text-decoration: none;
+}
+.post {
+    margin: 0 0 80px 0;
+    position: relative;
+}
+.post__edit {
+    position: absolute;
+    right: 40px;
+    top: 12px;
+    font-size: 20px;
+}
+.post__remove {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: #F44336;
+}
+.post__description {
+    margin-bottom: 10px;
+}
+.post__date {
+    float: right;
+    background: #F44336;
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+}
+.post__author {
+    background: #1eb31e;
+    float: left;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+.popover {
+    min-width: 200px;
+}
+.popover-title {
+    color:#000;
+}
+
